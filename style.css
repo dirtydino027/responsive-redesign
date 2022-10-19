@@ -1,0 +1,38 @@
+#titleholder {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+body {
+    font-family: SFMono-Regular;
+    color: #01444b;
+    font-size: large;
+    line-height: 1.5;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image {
+    max-width: 900px;
+    width: 100%;
+    margin: 10px;
+}
+#desktop {
+    max-width: 1000px;
+}
+#tablet {
+    max-width: 700px;
+}
+#mobile {
+    max-width: 500px;
+    margin-bottom: 50px;
+}
